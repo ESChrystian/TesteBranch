@@ -1,0 +1,23 @@
+/* Alinha conteúdo ao meio e reinicializa personalizações padrões do documento */
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+section {
+    height: 30%;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
